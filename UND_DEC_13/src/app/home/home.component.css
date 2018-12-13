@@ -1,0 +1,34 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+}
+
+.basic-container {
+    padding: 30px;
+}
+
+.version-info {
+    font-size: 8pt;
+    float: right;
+}
+
+button {
+    background-color: primary;
+}
+
+mat-panel-description {
+    text-align: right;
+    flex: 0 10 auto;
+}
+
+.dropDown {
+    position: sticky;
+    top: 1px;
+    width: 100%;
+    margin-left: 450px;
+}
+
+mat-form-field{
+  margin-left: 45px;
+}
